@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* src/index.css */
+:root {
+  --dark-bg-50: #edf1fc;
+  --dark-bg-100: #d3d4e1;
+  --dark-bg-200: #b6b8c9;
+  --dark-bg-300: #989bb2;
+  --dark-bg-400: #7c7f9b;
+  --dark-bg-500: #636582;
+  --dark-bg-600: #4c4f66;
+  --dark-bg-700: #363849;
+  --dark-bg-800: #21222e;
+  --dark-bg-900: #0a0a16;
+
+  --premier-50: #edf4fd;
+  --premier-100: #ced7e5;
+  --premier-200: #afbbcf;
+  --premier-300: #909fbb;
+  --premier-400: #7081a7;
+  --premier-500: #57668e;
+  --premier-600: #444d6f;
+  --premier-700: #303650;
+  --premier-800: #2b3147;
+  --premier-900: #080d17;
+}
+
+/* .bg-premier-800 {
+  background-color: var(--dark-bg-500);
+} */
+
+.bg-premier-800 {
+  background-color: var(--premier-800);
+}
+.bg-dark-bg-700{
+  background-color: var(--dark-bg-700);
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: rgb(196, 180, 180) !important;  
+  opacity: 1 !important;  
+}
+
+
+
