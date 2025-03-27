@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/Homepage.jsx"
+import HomePage from "./pages/HomePage.jsx"
 import MoviePage from "./pages/MoviePage.jsx";
 import PlaysPage from "./pages/PlaysPage.jsx";
 import axios from 'axios';
