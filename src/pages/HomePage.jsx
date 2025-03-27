@@ -6,7 +6,7 @@ import PosterSlider from '../components/PosterSlider/PosterSlider'
 import axios from 'axios'
 
 
-const Homepage = () => {
+const HomePage = () => {
     const [recommendedMovies, setRecommendedMovies]=useState([]);
     const [premierMovies, setPremierMovies]=useState([]);
     const [onlineStreamEvents, setOnlineStreamEvents]=useState([]);
@@ -74,5 +74,5 @@ const Homepage = () => {
   )
 }
 
-export default DefaultLayoutHoc(Homepage)
+export default DefaultLayoutHoc(HomePage)
 
